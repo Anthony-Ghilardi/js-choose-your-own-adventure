@@ -70,7 +70,7 @@ function climbStairs(){
 }
 
 function goRight(){
-    let answer6 = window.prompt(`You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure. Antoher path would lead you away from the dragon all together. Which do your take? Type treasure or path`)
+    let answer6 = window.prompt(`You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure. Another path would lead you away from the dragon all together. Which do your take? Type treasure or path`)
     if (answer6 === 'back') {
         start()
     } else if (answer6 === 'treasure') {
